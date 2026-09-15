@@ -5,11 +5,11 @@ Through first completion of my code, I had complex shapes drawn with greatly inc
 
 At 16 circles and 18 steps per enumeration, time to render the image was: 10.120298s. 
 
-<img width="703" height="583" alt="Screenshot 2026-09-15 163201" src="https://github.com/user-attachments/assets/54de497d-85ca-4a2d-902f-29501b675f70" />
+<img width="351" height="291" alt="Screenshot 2026-09-15 163201" src="https://github.com/user-attachments/assets/54de497d-85ca-4a2d-902f-29501b675f70" />
 
 While at 64 circles and 90 steps, time to render was: 290.6891754
 
-<img width="776" height="626" alt="Screenshot 2026-09-15 163822" src="https://github.com/user-attachments/assets/fae9d222-2a5a-4bb3-8460-d5c0fb78d22f" />
+<img width="388" height="313" alt="Screenshot 2026-09-15 163822" src="https://github.com/user-attachments/assets/fae9d222-2a5a-4bb3-8460-d5c0fb78d22f" />
 
 Time complexity with rendering is O(n^2) as it is based on number of circles. Increasing resolution with the circle (steps) increases time spent per circle. I mitigated this issue as much as possible by placing any calculations done in the loops outside, as well as precomputing x-coords, but due to Turtle am still bottlenecked. 
 
