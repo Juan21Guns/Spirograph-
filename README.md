@@ -16,4 +16,4 @@ Time complexity with rendering is O(n^2) as it is based on number of circles. In
 New time w/ 18 steps, 16 circles: 9.855s
 New time w/ 90 steps, 64 circles: 288.936s
 
-Only saving 
+Feel free to grab the code and try it for yourself! There are a lot of parameters you can toggle to change the color, definition, and size of the spirograph.
